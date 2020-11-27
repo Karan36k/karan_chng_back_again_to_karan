@@ -1,0 +1,25 @@
+User-agent: *
+
+Allow: /images/
+
+Disallow: /js/
+
+Disallow: /css/
+
+ 
+
+User-agent: Googlebot
+
+Allow: /
+
+ 
+
+User-agent: Yandex
+
+Allow: /images/
+
+Disallow: /js/
+
+Disallow: /css/
+
+Host: va-freelancer.github.io/siteforportfolio-vikulov.github.io/
