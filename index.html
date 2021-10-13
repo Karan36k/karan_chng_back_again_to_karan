@@ -1,715 +1,343 @@
 <!DOCTYPE html>
-<html lang="xyz">
+<html class="cspio">
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>massivefile.com</title>
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="keywords" content="portfolio, Karan Arora, datascience, data, machine-learning">
-	<meta itemprop="name" content="Karan Arora Portfolio">
-	<title>Karan Arora</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/icofont.min.css">
-	<link rel="stylesheet" type="text/css" href="css/devicons.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/style-main.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="favicon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="manifest" href="manifest.json">
+	<!-- Bootstrap and default Style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+
+	<!-- Google Fonts -->
+	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+			
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	
+	<!-- Calculated Styles -->
+	<style type="text/css">
+	
+	html {
+		height: 100%;
+		overflow: hidden;
+	} 
+
+	body {
+		height:100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	html{
+		height:100%;
+		background: #ffffff url(https://i.postimg.cc/RVZwZ52F/photo-1555963153-11ff60182d08.jpg); no-repeat center bottom fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#cspio-page{
+		background-color: rgba(0,0,0,0);
+	}
+	
+	.flexbox #cspio-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cspio body{
+		background: transparent;
+	}
+
+	.cspio body, .cspio body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
+
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#cspio-headline{
+		font-family: 'Pacifico';
+		font-weight: 400;
+		font-style: ;
+				font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.cspio button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+    }
+	
+    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
+		color: #ffffff;
+	}
+
+	#cspio-socialprofiles a {
+	  color: #ffffff;
+	}
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
+		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: linear-gradient(top,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary.disabled,
+	.cspio .btn-primary[disabled],
+	.cspio .btn-primary:focus:hover,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.cspio .btn-primary:focus.disabled,
+	.cspio .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#cspio-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.cspio input[type='text']:focus {
+		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+    
+    #cspio-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+    
+	.cspio .progress-bar,
+	.countdown_section,
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.cspio input,
+	.cspio input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+							
+	#cspio-page{
+	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	.cspio body{
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
+	}
+
+	#cspio-subscribe-btn{
+	    background:transparent;
+	    border: 1px solid #fff !important;
+	    color: #fff;
+	}
+
+	#cspio-subscribe-btn:hover{
+	    background: rgba(255,255,255,0.2);
+	    color: #fff;
+	}
+
+	#cspio-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		    margin-top: -4px;
+	}
+
+	#cspio-credit {
+		font-size:11px;
+	}
+
+	</style>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	
+	<!-- Google Analytics Code Goes Here-->
 </head>
 <body>
-	<section id="container">
-		<header>
+	<div id="cspio-page">
+		<div id="cspio-content">
 			
-			<div id="logo">
-				
-				<h2>KARAN ARORA</h2>
-				<h4>	<div id="slideshow-example" data-component="slideshow">
-		<div role="list">
-			<div class="slide">
-				 <p> Programmer </p>
-			</div>
-			<div class="slide">
-				 <p> Problem Solver </p>
-			</div>
-			<div class="slide">
-        <p> Data Scientist </p>
-			</div>
-			<div class="slide">
-				 <p> Public Speaker </p>
-			</div>
-			
-		</div>
-	</div>
-</h4>
-			</div>
-			<div class="social-icons-container">
-				
+			    				
+			<h1 id="cspio-headline">Something Broke </h1> <h2>we are fixing it  <i class="fa fa-wrench fa-1x" aria-hidden="true"></i> <br></h2>			    				
+	<br><br>
 
-				<ul class="socialicons">
-					<li>
-						<a href="">
-							<i class="fa fa-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<i class="fa fa-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<i class="fa fa-linkedin"></i>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<i class="fa fa-whatsapp"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</header>
+			<div id="cspio-description">Please give some time!<br> We will be back live in 2 Days!</div>
+			<!-- hitwebcounter Code START -->
+<p id="demo"></p>
 
-		<section id="content">
-			<div id="profile">
-				<div class="about">
-					<div class="photo-inner">
-						<ul>
-							<li>
-								<img src="img/profile.jpg" alt="">
-							</li>
-						</ul>
-					</div> <div id="typedtext">
-					<h3><u>Welcome</h3></u>
-					<p><i>
-						<br><br>
-
-					</p></i>
-				</div></div>
-
-				<ul class="personal-info">
-					<li>
-						<label>Name</label><span>Karan Arora</span>
-					</li>
-
-					<li>
-						<label>DOB </label><span>April 13, 1996</span>
-					</li>
-
-					<li>
-						<label>E-Mail</label><span>karan39k@gmail.com</span>
-					</li>
-
-					<li>
-						<label>Phone</label><span>7417778230, 8556059020</span>
-					</li>
-
-					<li>
-						<label>Location</label><span>Delhi, India</span>
-					</li>
-
-				</ul>
-
-			</div>
-
-			<nav class="menu">
-				<ul class="tabs">
-					<li class="tmenu">
-						<a href="#profile" class="tab-profile ">
-							<i><i class="fa fa-user"></i></i>
-							PROFILE
-						</a>
-					</li>
-					<li class="tmenu">
-						<a href="#resume">
-							<i><i class="icofont-files-stack"></i></i>
-							RESUME
-						</a>
-					</li>
-
-					<li class="tmenu">
-						<a href="#portfolio">
-							<i><i class="icofont-ui-image"></i></i>
-							PROJECTS
-						</a>
-					</li>
-					<li class="tmenu">
-						<a href="#contact">
-							<i><i class="icofont-contacts"></i></i>
-							BLOG
-						</a>
-					</li>
-				</ul>
-			</nav>
-			<section id="resume">
-				
-				<div class="timeline-section">
-					<div class="main-wrapper-resume">
-						<div class="carttitle-wrapper">
-							<div class="color-box">
-								<button id="red-color" class="btn-style">
-								<button id="yellow-color" class="btn-style">
-								<button id="blue-color" class="btn-style">
-								<button id="green-color" class="btn-style">
-								<button class="setting-icon">
-									<i class="fa fa-cog fa-spin" aria-hidden="true"></i>
-								</button>
-							</div>
-							<div class="container no-padding">
-								<div class="row no-margin">
-									<div class="col-md-6 no-padding bg-color-left">
-										<div class="left-name bg-color-1">
-											<h2>
-												KARAN <span class="text-color">ARORA</span>
-											</h2>
-											<p>
-												<i>I can talk to the data, identify unbiased and generalisable patterns, and then communicate technical outcome to a non-technical audience.</i>
-											</p>
-										</div>
-										
-										<div class="left-address">
-											<b>EDUCATION AND PAPERS</b>
-											<small><br>
-												<b>BACHELORS IN COMPUTER SCIENCE (HONORS)</b><br>Chitkara University (2014-2018)<br>
-												<b>RESEARCH PAPER 1<br></b>
-												https://www.ijtsrd.com/papers/ijtsrd35848.pdf<br>
-												<b>RESEARCH PAPER 2</b><br>
-												https://www.ijsr.net/archive/v9i10/SR201028161702.pdf
-												<b>RESEARCH PAPER 3</b><br>
-												In-Review - Optimization Methods and Software (Scopus Q1)
-												<b>Post Graduate Diploma in Applied Statistics</b><br>CCS University (2020-Present)<br>
-												</small>
-											
-										</div>	
-										<div class="ex-heading">
-											<h2>WORK EXPERIENCE</h2>
-
-										</div>
-										<div class="ex-box">
-											<h2>Data Scientist</h2><br>
-											MadrasMed<br>
-											<small>10/2020 - Present
-											<br>1. Gave technical presentations to the CEO after designing data extraction framework that crawled 150 websites and cleaned text data for over 40,000 COVID hospitals in Tamil Nadu.</li>
-												<li>2. SStatistical Analysis of 10 Million tables pre-prediction</li>
-												<li>3. Working on Machine Learning and Deep Learning Models with Deployment in Cloud Infrastructure - AWS Redshift and AWS EC2 </li></small>
-										</div>
-										<div class="ex-box">
-											<h2>Quality Assurance Engineer (Machine Learning Domain)</h2><br>
-											Cybage Software<br>
-											<small>11/2018 - 10/2020
-											<br>1. Designed and implemented a complete User Impersonation and Validation Framework with 10 hours runtime using Python and Machine Learning Modelling</li>
-												<li>2. Data Cleaning & Building ETL Pipelines to capture, cleanse, transform, and route raw data to destination systems with SQL</li>
-												<li>3. Migrated Production Level Software from Google Cloud GCP to AWS
-</li></small>
-										</div>
-										<div class="ex-box">
-											<h2>Machine Learning Research Intern</h2><br>
-											Government of Delhi, India (Delhi Metro Rail Corp.)<br>
-											<small>06/2018 - 07/2018
-											<br>Used Machine Learning to predict route from Noida City Center to Sector 62 </li>
-												<li>2. Performed multivariate analysis of 10000+ values</li>
-												<li>3. Work had impact on over 7 million people of Noida & Delhi NCR</li>
-												</small>
-										</div>
-										<div class="ex-box">
-											<h2>Deep Learning Research Intern</h2><br>
-											Ministry of Education, Taiwan<br>
-											12/2017 - 03/2018
-											<small><br>1. Used U-Net and Auto-Encoders to convert LDR Images to HDR</li>
-												<li>2. Learned usage of Neural Networks and Generative Adversarial Networks</li>
-												</small>
-										</div>
-									</div>
-									<div class="col-md-6 no-padding bg-color-right">
-										<div class="top-skills">
-											<div class="skill-name">
-												<div class="sn"><i class="devicons devicons-github"></i>
-												</div>
-											<ul>
-												<li></li>
-												<li></li>
-												<li></li>
-												<li></li>
-												<li></li>
-											</ul>
-										</div>
-											<div class="skill-name">
-												<div class="sn"><i class="devicons devicons-python"></i></div>
-												<ul>
-													<li></li>
-													<li></li>
-													<li></li>
-													<li></li>
-													<li></li>
-												</ul>
-											</div>
-											<div class="skill-name">
-												<div class="sn"><i class="devicons devicons-django"></i></div>
-												<ul>
-													<li></li>
-													<li></li>
-													<li></li>
-												</ul>
-											</div>
-											<div class="skill-name">
-												<div class="sn"><i class="devicons devicons-mysql"></i></div>
-												<ul>
-													<li></li>
-													<li></li>
-													<li></li>
-													<li></li>
-													
-												</ul>
-											</div>
-										</div>
-										<div class="right-skills">
-											<div class="row no-margin">
-										
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Programming</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuema="100" style="width: 90%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Databases</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuema="100" style="width: 85%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Dashboarding</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuema="100" style="width: 75%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Machine Learning</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuema="100" style="width: 85%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Data Cleaning</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuema="100" style="width: 80%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="row no-margin mt-25">
-												<div class="col-md-5 no-padding">
-													<h4>Data Mining</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuema="100" style="width: 95%;">
-														</div>
-													</div>
-												</div>	
-											</div>
-											<div class="row no-margin">
-												<div class="col-md-5 no-padding">
-													<h4>Deployment</h4>
-												</div>
-												<div class="col-md-7 no-padding">
-													<div class="progress">
-														<div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuema="100" style="width: 79%;">
-														</div>
-													</div>
-												</div>
-											</div>
-											
-											<div class="row no-margin mt-25">
-												<div class="col-md-12 heading-skills no-padding">
-													<h3>HOBBIES</h3>
-												</div>
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-learn"></i>
-														<br><br>
-														<h5>Reading</h5>
-													</div>
-												</div>
-												
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-code"></i>
-														<br><br>
-														<h5>Programming</h5>
-													</div>
-												</div>
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-book"></i>
-														<br><br>
-														<h5>Writing</h5>
-													</div>
-												</div>
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-drawing-tablet"></i>
-														<br><br>
-														<h5>Cooking</h5>
-													</div>
-												</div>
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-computer"></i>
-														<br><br>
-														<h5>Chess</h5>
-													</div>
-												</div>
-												<div class="col-md-4 intetst-box">
-													<div class="intetst-icons">
-														<i class="icofont-ui-game"></i>
-														<br><br>
-														<h5>Gaming</h5>
-													</div>
-												</div>  
-											</div>
-											</div>
-											<small>
-											<div class="eduction-right">
-												<div class="row no-margin">
-													<div class="col-md-20  heading-skills no-padding">
-														<h3>Achievements</h3>
-														<div class="ex-box">
-															<h2>1st Place Winner - (India) 
-																<br>Start-a-thon 2.0</h2>
-															<i style="color: white;"><br>
-																Won 1st Place with Prizes worth ₹100,000 over 450 competitors in the National-Level Entrepreneurship Competition organized by SP-TBI.
-															</i>
-														</div>
-													
-												
-														<div class="ex-box">
-															<h2>1st Place Winner - (Meerut) <br>Saint Mary's School</h2>
-															<i style="color: white;">
-																Played as a Striker for DPS Football Team, won 1st prize in District Level Championship for Meerut City District.
-															</i>
-														</div>
-													</div>
-
-													<div class="ex-box">
-															<h2>1st Place Winner - (Pune NE) <br>Toastmasters Debate Club</h2>
-															<i style="color: white;">
-																Awarded as the Best Debut Speaker on 1st speech at Toastmasters Club Pune North East, won multiple times Best Speaker of the Day Award too
-															</i>
-														</div>
-													</div>
-													
-													
-											
-
-													<div class="ex-box">
-															<h2>Technical Organizer- "Explore" - <br>
-															Chitkara University</h2>
-															<i style="color: white;">
-																Conducted the National Level Digital Fiesta, taking care of Technical and Gaming Events. Coordinated with a sizable team of 30+ members.
-															</i>
-														</div>
-													</div></small>
-									
-											<div style="color: white; padding:20px;"><center><u><h5>Social Aid Work - NGO</h5></u></center><br>
-												<ol type="I">
-												<li><u> Volunteer - COVID NGO Relief - Sparks Foundation</li><small></u>
-												Volunteered at the ground level and managed a small team at the NGO for the aid in hunger and medical needs for the needy people in Mumbai.</small><br>
-												
-												<li><u><p>Mentor- NGO Umeed</li><small></u>
-												Worked with the team and successfully conducted Science and Mathematics teaching sessions in New-Delhi and nearby areas.</small><br>
-
-												
-												<li><u>Social Aid Worker- NGO Adhvan Foundation<li><small></u>
-												Provided Science Lessons to students, also wrote regular assignments.</small>
-
-											</ol></div>
-
-													
-													</div>
-											</div>
-
-
-											
-
-											<div class="address-qr-right">
-												<div class="row no-margin">
-													<div class="col-md-5 no-padding">
-														<div class="qr-box">
-																<img src="img/copyrigh.png">
-														
-														</div>
-													</div>
-													<div class="col-md-6">
-														<div class="address-right-box">
-															<ul>
-																<li>
-																	<i class="fa fa-phone-square"></i>
-																	<p>
-																		+91 8556059020
-																	</p>
-																</li>
-																
-																<li>
-																	<i class="fa fa-envelope-o"></i>
-																	<p>
-																		karan39k@gmail.com
-																	</p>
-																</li>
-																<li>
-																	<i class="fa fa-map-marker"></i>
-																	<p>
-																		Meerut, India
-																	</p>
-																</li>
-															</ul>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-								</div>
-							</div>
-						</div>
+			<br><br>
+			<form id="cspio-form" action="">
+				<div id="cspio-field-wrapper">
+					<div class="row">
 					</div>
-				</div>	
-			</section>
-			<section id="portfolio">
-				<ul class="cats-filter" id="portfolio-filter">
-					<li><a href="" class="current transition" data-filter="*">ALL</a></li>
-					<li><a href="" class="transition" data-filter=".webdesign">Python ML</a></li>
-					<li><a href="" class="transition" data-filter=".coders">Web Tech</a></li>
-					<li><a href="" class="transition" data-filter=".illustration">POC</a></li>
-					<li><a href="" class="transition" data-filter=".design">Others</a></li>
-				</ul>
-				<br>
-				<div class="extra-text">Please click on the icons to see live demo<br>
-					<small><small>I have learned mostly online and then implemented some projects here*</small></small></div>
-				<ul id="portfolio-list">
-
-					<li class="coders">
-						<a href="" class="folio">
-							<a href="https://massivefile.com/beatbox/#7392528c528c7392" target="_blank">
-							<img src="img/img-1.png" alt="Kopbox" >
-							<h2 class="title">Beatbox - High Base Interactive Sound Beatbox application</h2></a>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li> 
-
-						<li class="coders webdesign">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/vehicle_evolution" target="_blank">
-							<img src="img/img-11.png" alt="Clock">
-							<h2 class="title">Smart Car Learning To Drive with Iterations</h2>
-							<div class="categorie">Python , ML , Flask , Java Script</div>
-						</a>
-					</li>
-					
-					<li class="webdesign">
-						<a href="" class="folio">
-							<a href="https://massivefile.com/covid" target="_blank">
-							<img src="img/img-2.png" alt="Covid-Tracker">
-							<h2 class="title">Live Covid 19 Tracker India</h2>
-							<div class="categorie">Python, Flask , API Call</div></a>
-						</a>
-					</li>
-					
-					<li class="coders">
-						<a href="" class="folio">
-							<a href="https://massivefile.com/Voice_Heat" target="_blank">
-							<img src="img/img-3.png" alt="Guitar_AMP">
-							<h2 class="title">Interactive Voice Input</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-
-					<li class="coders">
-						<a href="" class="folio">
-							<a href="https://massivefile.com/pix2pix" target="_blank">
-							<img src="img/img-3.png" alt="Guitar_AMP">
-							<h2 class="title">Image Regeneration</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-						
-						<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/Password_Generator" target="_blank">
-							<img src="img/img-5.png" alt="Clock">
-							<h2 class="title">Password Generator</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-							
-							
-								<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/JS-SpeedTyping_test" target="_blank">
-							<img src="img/img-9.png" alt="Clock">
-							<h2 class="title">A Dynamic Speed Test</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-									<li class="coders webdesign">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/PasswordStrengthChecker" target="_blank">
-							<img src="img/img-12.png" alt="Clock">
-							<h2 class="title">Password Strength Checker</h2>
-							<div class="categorie">Python , ML , Flask , Java Script</div>
-						</a>
-					</li>
-										<li class="coders illustration">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/text-2-speech" target="_blank">
-							<img src="img/img-7.png" alt="Clock">
-							<h2 class="title">Text-2-Speech Application POC</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-					
-					
-
-					<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/piano" target="_blank">
-							<img src="img/img-6.png" alt="Clock">
-							<h2 class="title">Piano</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-						<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/netflix" target="_blank">
-							<img src="img/img-10.png" alt="Clock">
-							<h2 class="title">Netflix Clone</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-						<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/RockPaperScissor" target="_blank">
-							<img src="img/img-13.png" alt="Clock">
-							<h2 class="title">Rock Paper Scissors</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-					
-						<li class="coders webdesign">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/covid2" target="_blank">
-							<img src="img/img-8.png" alt="Clock">
-							<h2 class="title">COVID Tracker World Live</h2>
-							<div class="categorie">Python Flask Javascript</div>
-						</a>
-					</li>
-							<li class="coders">
-						<a href="" class="folio">
-						<a href="https://massivefile.com/Elegant_clock" target="_blank">
-							<img src="img/img-4.png" alt="Clock">
-							<h2 class="title">Simple Elegant Clock</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-
-				
-					<li class="coders">
-						<a href="" class="folio">
-					<a href="https://massivefile.com/SimpleCalculater" target="_blank">
-							<img src="img/img-14.png" alt="Clock">
-							<h2 class="title">Simple Calculater</h2>
-							<div class="categorie">HTML CSS Java Script</div>
-						</a>
-					</li>
-				</ul>
-			</section>
-			<section id="contact">
-				<div id="map">
-									<a href="https://karan36k.github.io/" target="_blank">Click Here</a> for Full Version of this website
-
-					<iframe src="https://karan36k.github.io/" width="400" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 				</div>
-							</section>
+			</form>
+			
+			<span id="cspio-privacy-policy-txt">Please email me if needed.</span>
+			    						    			    								    			    			    				
+			<div id="cspio-socialprofiles">
+				<a href="mailto:karan39k@example.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
+			</div>
+
+		</div><!-- end of #cspio-content -->
+	</div>
 
 
+	<script>
+	// Set the date we're counting down to
+var countDownDate = new Date("Oct 11, 2021 15:37:25").getTime();
 
+// Update the count down every 1 second
+var x = setInterval(function() {
 
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+		// Animate Delay
+		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
 
+		// Reseize	
+		function resize(){
+				$('head').append("<style id='form-style' type='text/css'></style>");
+				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
+		}
+		
+		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+			function(){
+				var width = $('#cspio-field-wrapper').width();
+				if(width < 480 && width != 0){
+					resize();
+				}
+			}
+		);
+	</script>
 
-		</section>
-		<footer><div style: align="right">
-			<small><div class="copyright">Copyright <i class="icofont-copyright"></i> 2021 Karan Arora <br><p>Domain - massivefile.com</p></div></small>
-			<div>
-			<img src="img/copyrigh.png" style="width: 96px", align="right", alt="barcode for massivefile.com", title="barcode for massivefile.com"></div>
-													
-		</footer>
-
-
-
-
-
-	</section>
-	
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-        ym(35628330, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/35628330" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
-</body>	
+	</body>
 </html>
+
