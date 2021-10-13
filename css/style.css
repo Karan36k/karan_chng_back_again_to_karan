@@ -1,3 +1,19 @@
+#typedtext {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:20px; 
+  margin: 0px 0px; 
+  letter-spacing: 4px; 
+  font-weight: bold;
+}
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+
 :root {
 	box-sizing: border-box;
 }
