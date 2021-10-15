@@ -2,7 +2,7 @@
 var aText = new Array(
 "Lifelong Learner, currently working on building a healthcare system for the next COVID.",
 "I'm a renaissance polymath with sheer interests in Data Processing, Machine Learning, Web Development and Model Deployment.",
-"In my free time, I like playing chess, reading books & cooking new dishes."
+"In my free time, I like playing chess ♛, reading books 📕 & cooking new dishes 🍲."
 );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
