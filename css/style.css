@@ -8,6 +8,7 @@ and (max-device-width: 900px)
   margin: 0px 0px; 
   letter-spacing: 4px; 
   font-weight: bold;
+  color: black;
 }
 [data-component="slideshow"] .slide {
 	display: none;
@@ -61,7 +62,7 @@ li {
 }
 
 #profile {
-	background: #0094FF;
+	background: #f0f3f6;
 	background-image: url(../img/header-shadow.png);
 	background-position: center bottom;
 	background-repeat: repeat-x;
@@ -125,12 +126,12 @@ li {
 	margin-left: 10px;
 	background: url(../img/personal-info-sep.png) no-repeat left top;
 	padding: 20px 0 19px 20px;
+	color: black;
 }
 
 .personal-info li {
 	line-height: 12px;
 	font-size: 0.79rem;
-
 	margin-bottom: 10px;
 	overflow: hidden;
 	float: left;
@@ -138,16 +139,17 @@ li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	color: black;
 }
 
 .personal-info li label {
 	width: 130px;
-	color: white;
 	/* float: left; */
 	padding: 4px 7px;
 	font-weight: 550;
 	border-radius: 3px;
 	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
 }
 
 .personal-info li span {
@@ -155,7 +157,7 @@ li {
 	width: 220px;
 	padding-top: 4px;
 	font-weight: 400;
-	color: white;
+color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -201,7 +203,7 @@ ul.socialicons {
 
 .menu {
 	height: 100px;
-	background-color: #ededed;
+	background-color: #05051e;
 	position: relative;
 	padding-left: 130px;
 	padding-right: 130px;
