@@ -1,3 +1,7 @@
+@media only screen 
+and (max-device-width: 900px)
+ {width: auto}
+
 #typedtext {
   font-family: 'Waiting for the Sunrise', cursive; 
   font-size:20px; 
@@ -116,7 +120,7 @@ li {
 .personal-info {
 	float: left;
 	margin-top: 30px;
-	width: 310px;
+	width: 300px;
 	min-height: 230px;
 	margin-left: 10px;
 	background: url(../img/personal-info-sep.png) no-repeat left top;
@@ -125,7 +129,7 @@ li {
 
 .personal-info li {
 	line-height: 12px;
-	font-size: 0.7rem;
+	font-size: 0.79rem;
 
 	margin-bottom: 10px;
 	overflow: hidden;
@@ -143,7 +147,6 @@ li {
 	padding: 4px 7px;
 	font-weight: 550;
 	border-radius: 3px;
-	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -154,7 +157,6 @@ li {
 	font-weight: 400;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
 }
 
 header {
@@ -221,7 +223,6 @@ ul.socialicons {
 	color: #b9b9b9;
 	text-align: center;
 	font-weight: 580;
-	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height: 35px;
 	text-decoration: none;
@@ -354,7 +355,6 @@ section>p {
 	font-weight: 400;
 	color: #3a3a3a;
 	font-family: 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
 }
 
 #portfolio-list li .categorie{
@@ -376,7 +376,6 @@ section>p {
 	margin-bottom: 5px;
 	font-size: 13px;
 	font-family: 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
 	border-radius: 50px;
 }
 .cats-filter li a:hover{
@@ -387,7 +386,6 @@ section>p {
 }
 .extra-text{
 	font-family: 'Roboto Condensed', sans-serif;
-	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #333 !important;
 }
