@@ -321,21 +321,23 @@ section>p {
 	color: white;
 }
 #portfolio{
-	padding: 31px;
+	padding-top: 11px;
+	padding-left: 91px;
 }
 #portfolio-list{
-	width: 820px;
+	width: 900px;
 	overflow: hidden;
 }
 #portfolio-list li{
 	float: left;
 	margin-right: 25px;
+	margin-left: 25px;
 	text-align: center;
 	background-color: #fbfbfb;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 25px solid lightgreen;
 	height: 185px;
 	margin-bottom: 30px;
-	width: 180px;
+	width: 280px;
 }
 #portfolio-list li:hover{
 	border-bottom: 1px solid #09F;
@@ -348,21 +350,40 @@ section>p {
 	overflow: hidden;
 	object-fit: cover;
 }
+
 #portfolio-list li:hover .title{
-	color: #09F;
+	font-size: 1.2em;
+	color: #099;
 }
 #portfolio-list li .title{
 	font-size: 0.8em;
-	margin-top: 15px;
+	margin-top: 10px;
 	font-weight: 400;
 	color: #3a3a3a;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#portfolio-list li .categorie{
-	font-size: 11px;
-	line-height: 25px;
-	color: #999;
+.button {
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .cats-filter{
 	border-bottom: 1px solid #ededed;
