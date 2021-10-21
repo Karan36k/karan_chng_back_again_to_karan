@@ -22,4 +22,4 @@ Disallow: /js/
 
 Disallow: /css/
 
-Host: va-freelancer.github.io/siteforportfolio-vikulov.github.io/
+Host: karan36k@gmail.com, massivefile.com

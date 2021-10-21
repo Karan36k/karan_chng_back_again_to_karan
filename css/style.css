@@ -8,7 +8,7 @@ and (max-device-width: 900px)
   margin: 0px 0px; 
   letter-spacing: 4px; 
   font-weight: bold;
-  color: black;
+  color: #222;
 }
 [data-component="slideshow"] .slide {
 	display: none;
@@ -36,9 +36,6 @@ a, a:hover{
 	box-sizing: border-box;
 }
 
-body {
-	background-image: url(../img/bg-dark.png);
-}
 
 li {
 	list-style-type: none;
@@ -126,7 +123,7 @@ li {
 	margin-left: 10px;
 	background: url(../img/personal-info-sep.png) no-repeat left top;
 	padding: 20px 0 19px 20px;
-	color: black;
+	color: #222;
 }
 
 .personal-info li {
@@ -139,7 +136,7 @@ li {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	color: black;
+	color: #222;
 }
 
 .personal-info li label {
@@ -149,7 +146,7 @@ li {
 	font-weight: 550;
 	border-radius: 3px;
 	font-family: 'Roboto Condensed', sans-serif;
-	color: black;
+	color: #222;
 }
 
 .personal-info li span {
@@ -157,7 +154,7 @@ li {
 	width: 220px;
 	padding-top: 4px;
 	font-weight: 400;
-color: black;
+color: #222;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -203,7 +200,7 @@ ul.socialicons {
 
 .menu {
 	height: 100px;
-	background-color: #05051e;
+	background-color: #e19100e6;
 	position: relative;
 	padding-left: 130px;
 	padding-right: 130px;
@@ -222,7 +219,7 @@ ul.socialicons {
 	display: inline-block;
 	background-repeat: no-repeat;
 	font-size: 15px;
-	color: #b9b9b9;
+	color: #2d4a0c;
 	text-align: center;
 	font-weight: 580;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -236,7 +233,7 @@ ul.socialicons {
 	color: #09F;
 }
 .tabs li.active a{
-	color: #09F;
+	color: #680505;
 }
 .tabs .active i {
 	animation: bounce 2s infinite;
@@ -288,7 +285,7 @@ ul.socialicons {
 	padding: 31px;
 }
 #logo h4 {
-	color: #555;
+	color: #222;
 	line-height: 20px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
@@ -296,7 +293,7 @@ ul.socialicons {
 }
 
 #logo h2 {
-	color: #555;
+	color: #222;
 }
 
 .logo-image {
@@ -314,7 +311,8 @@ ul.socialicons {
 }
 
 .copyright {
-	color: #fff;
+	color: #222;
+	font-size: 11px;
 }
 
 section>p {
@@ -334,13 +332,13 @@ section>p {
 	margin-left: 25px;
 	text-align: center;
 	background-color: #fbfbfb;
-	border-bottom: 25px solid lightgreen;
+	border-bottom: 15px solid lightgreen;
 	height: 185px;
 	margin-bottom: 30px;
 	width: 280px;
 }
 #portfolio-list li:hover{
-	border-bottom: 1px solid #09F;
+	border-bottom: 1px solid black;
 	height: 185px;
 }
 #portfolio-list img{
@@ -405,7 +403,7 @@ section>p {
 	text-decoration: none;
 }
 .cats-filter li a.current{
-	background-color: #09F;
+	background-color: #008000c9;
 }
 .extra-text{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -483,7 +481,7 @@ form label{
 }
 .button{
 	color: #fff;
-	background-color: #09F;
+	background-color: #bd8012;
 	padding: 8px;
 	border: none;
 	border-radius: 3px;
